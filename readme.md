@@ -50,3 +50,24 @@ and this one allows you to see it in one line
 ```
 git log --oneline
 ```
+
+
+## working with remotes
+
+- to add a remote 'git remote add <name> <url>'
+
+<!-- dont actually <> its just the style of notes
+and "name" is what ever you want it to be.. often "origin" -->
+
+- to see list of remotes 'git remote -v'
+- to push code "git push <remoteName> <branchName>'
+    - to see current branch 'git branch'
+
+<!-- basically name in "remote name" is "name" listed above.... and the "branch name" is what you find when you input "git branch" -->
+
+<!-- steps to commit
+1) git add .
+2) git commit -m "description"
+3) git push <remoteName> <branchName> -->
+
+<!-- USE SUDO!! IF PERMMISSION DENIED -->
